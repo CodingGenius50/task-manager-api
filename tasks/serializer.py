@@ -16,3 +16,4 @@ class TaskSerializer(serializers.ModelSerializer):
        'user',
        'created_at'
     ]
+    read_only_fields = ['user']

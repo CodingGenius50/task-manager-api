@@ -6,3 +6,4 @@ urlpatterns = [
     path("register/", Registerview.as_view()),
     path("login/",TokenObtainPairView.as_view()),
 ]
+ 

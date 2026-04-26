@@ -21,6 +21,7 @@ class TaskListView(APIView):
     permission_classes=[permissions.IsAuthenticated]
     def get(self,request):
         tasks=Task.objects.filter(user=request.user)
+       
         
         #status
         status_param=request.query_params.get('status')
@@ -40,7 +41,15 @@ class TaskListView(APIView):
         serializer=TaskSerializer(result,many=True)
         return paginator.get_paginated_response(serializer.data)
     
-        
+class TaskDetailView(APIView):
+    permission_classes=[permissions.IsAuthenticated]
+    
+    def get(self,request,pk):
+        task=get_object_or_404(Task,id=pk,user=request.user)
+        serializer=TaskSerializer(task)
+        return Response({"message":"This is task details","data":serializer.data})
+    
+    
 class TaskUpdateView(APIView):
     permission_classes=[permissions.IsAuthenticated]
     def put(self,request,pk):
@@ -48,7 +57,7 @@ class TaskUpdateView(APIView):
         serializer=TaskSerializer(task,data=request.data)
         if serializer.is_valid():
               serializer.save()
-              return Response(serializer.data, status=status.HTTP_200_OK)
+              return Response({"message":"Task updated","data":serializer.data}, status=status.HTTP_200_OK)
         return Response(serializer.errors,status=400)
     
         

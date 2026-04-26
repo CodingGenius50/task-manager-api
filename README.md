@@ -49,14 +49,14 @@ This project simulates a real-world SaaS backend system with authentication, tas
 | Admin1 | ![](screenshots/admin1.png) |
 | Admin_Task | ![](screenshots/admintask.png) |
 | Admin_user | ![](screenshots/adminuser.png) |
-| Tasklogin | ![](screenshots/Tasklogin.png) |
-| Taskregister | ![](screenshots/Taskregister.png) |
+| Tasklogin | ![](screenshots/tasklogin.png) |
+| Taskregister | ![](screenshots/taskregister.png) |
 | Taskcreate | ![](screenshots/taskcreate.png) |
-| Tasklist | ![](screenshots/Tasklist.png) |
-| Taskdetails | ![](screenshots/Taskdetails.png) |
-| Taskupdate | ![](screenshots/Taskupdate.png) |
+| Tasklist | ![](screenshots/tasklist.png) |
+| Taskdetails | ![](screenshots/taskdetails.png) |
+| Taskupdate | ![](screenshots/taskupdate.png) |
 | Taskdelete | ![](screenshots/taskdelete.png) |
-| Taskfilter | ![](screenshots/Taskfilter.png) |
+| Taskfilter | ![](screenshots/taskfilter.png) |
 
 
 

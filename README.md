@@ -44,7 +44,23 @@ This project simulates a real-world SaaS backend system with authentication, tas
 
 ---
 ## 📸 Screenshots
-(Add your Postman or API response screenshots here)
+| Feature | Preview |
+|--------|--------|
+| Admin1 | ![](screenshots/admin1.png) |
+| Admin_Task | ![](screenshots/admintask.png) |
+| Admin_user | ![](screenshots/adminuser.png) |
+| Tasklogin | ![](screenshots/Tasklogin.png) |
+| Taskregister | ![](screenshots/Taskregister.png) |
+| Taskcreate | ![](screenshots/taskcreate.png) |
+| Tasklist | ![](screenshots/Tasklist.png) |
+| Taskdetails | ![](screenshots/Taskdetails.png) |
+| Taskupdate | ![](screenshots/Taskupdate.png) |
+| Taskdelete | ![](screenshots/taskdelete.png) |
+| Taskfilter | ![](screenshots/Taskfilter.png) |
+
+
+
+
 
 ---
 ## ⚙️ Setup Instructions

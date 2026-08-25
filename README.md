@@ -87,6 +87,4 @@ This project demonstrates real-world backend development skills:
 **Abdul Hakim**
 Backend Developer (Django REST Framework)
 
----
-## ⭐ Support
-If you like this project, give it a star ⭐
+
